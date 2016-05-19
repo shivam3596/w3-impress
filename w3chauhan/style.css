@@ -1,0 +1,88 @@
+html { overflow: hidden; }
+body { font-family: 'Open Sans', sans-serif; line-height: .8; font-size: 45px; }
+
+.img1{ float:left;}
+.img2{float:left; width:315px ;height:604px;}
+.img3{ width:300px ;height:400px;}
+.img4{ float:left; width:400px ;height:400px;}
+
+.background {
+	height: 100%;
+	width: 100%;
+	background: -moz-radial-gradient(50% 50%, farthest-side,white,#e3e3e3);
+	background: -webkit-gradient(radial, 50% 50%, 20, 50% 50%, 1050, from(white), to(#e3e3e3));
+	z-index: 0;
+    opacity: 1;
+}
+.social{
+	margin-right:5px;
+
+}
+a, a:hover, a:visited {
+    text-decoration: none;
+    font-style: normal;
+    color: #666;
+    cursor: pointer;
+}
+a:hover { color: #e3e3e3;}
+
+.title { font-size: 275px; }
+.big { text-transform: uppercase; margin: 0; padding: 0; }
+.bold { font-weight: 800; }
+.span-over{}
+
+.step {
+    text-align:center;
+    width: 1000px;
+    padding: 20px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:    border-box;
+    -ms-box-sizing:     border-box;
+    -o-box-sizing:      border-box;
+    box-sizing:         border-box;
+    
+    -webkit-transition: opacity 1s;
+    -moz-transition:    opacity 1s;
+    -ms-transition:     opacity 1s;
+    -o-transition:      opacity 1s;
+    transition:         opacity 1s;
+    
+    text-shadow: rgba(0,0,0,.01) 0 0 1px; /* Chrome @font-face anti-aliasing fix */
+}
+
+.step:not(.active) { opacity: 0.1; }
+.arise{font-size:100px;color:#e33;}
+.label:hover{background-color:#e33;opacity:0.8;}
+
+
+#title {width: 1240px; height: 700px; text-align:left; font-size: 147px;}
+#title2 {width: 1240px; height: 600px; text-align:left;font-size: 147px;}
+
+#title-text1 { font-size: 70px; }
+#title-text2 { font-size: 153px; }
+#title-text3 { font-size: 38px; color:#e33; }
+#title-text4 { font-size:40px; text-align:right;}
+
+#goal1{
+	display:inline-table;
+	-webkit-border-radius:5px;
+	background-color:#1ec7e6;
+	opacity:0.3;
+	width:27%;
+	height:100%;
+	
+}
+
+#goal2{
+	display:inline-table;
+	color:#fffff;
+	-webkit-border-radius:5px;
+	background-color:red;
+	opacity:0.3;
+	width:72%;
+	height:100%;
+	
+}
+
+
